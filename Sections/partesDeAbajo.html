@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- link Style -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Killari</title>
+    </head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="../index.html">
+                    <img src="/imagenes/isotipoHeader.png" alt="isotipo de la marca Killari" id="logo">
+                </a>
+
+                <div class="order-lg-2">
+
+                    <button type="button" class="btn">
+                        <i class="bi bi-bag"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" class="bi bi-bag" fill="#ececcb" viewBox="0 0 16 16">
+                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                        </svg>
+                    </button>
+                    
+                </div>
+
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMegaMenu" aria-controls="navbarMegaMenu" aria-expanded="false"
+                aria-label="Toogle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse order-lg-1" id="navbarMegaMenu">
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item px-2 py-2"><a class="nav-link menuIndex menuHover" style="color: rgba(236, 236, 203, 1)" href="#header"> Home </a></li>
+
+                        <li class="dropdown px-2 py-2">
+                            <a class="nav-link px-2 dropdown-toggle menuIndex menuHover" data-bs-toggle="dropdown" aria-expanded="false" style="color: rgba(236, 236, 203, 1)" > Categorías </a>
+                            <ul class="dropdown-menu mega-menu megaMenuStyle">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <li>
+                                            <h6 class="dropdown-header px-2"> Partes de arriba </h6>
+                                        </li>
+                                        <li><a href="./partesDeArriba.html" class="nav-link px-3 fw-bold"> Ver todo </a></li>
+                                        <li><a href="./partesDeArriba.html" class="nav-link px-3"> Remeras </a></li>
+                                        <li><a href="./partesDeArriba.html" class="nav-link px-3"> Blusas </a></li>
+                                        <li><a href="./partesDeArriba.html" class="nav-link px-3"> Camisas </a></li>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <li>
+                                            <h6 class="dropdown-header px-2"> Partes de abajo </h6>
+                                        </li>
+                                        <li><a href="./partesDeAbajo.html" class="nav-link px-3 fw-bold"> Ver todo </a></li>
+                                        <li><a href="./partesDeAbajo.html" class="nav-link px-3"> Pantalones </a></li>
+                                        <li><a href="./partesDeAbajo.html" class="nav-link px-3"> Jeans </a></li>
+                                        <li><a href="./partesDeAbajo.html" class="nav-link px-3"> Polleras </a></li>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <li>
+                                            <h6 class="dropdown-header px-2"> Abrigos </h6>
+                                        </li>
+                                        <li><a href="./abrigos.html" class="nav-link px-3 fw-bold"> Ver todo </a></li>
+                                        <li><a href="./abrigos.html" class="nav-link px-3"> Camperas </a></li>
+                                        <li><a href="./abrigos.html" class="nav-link px-3"> Sweeters </a></li>
+                                        <li><a href="./abrigos.html" class="nav-link px-3"> Buzos </a></li>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <li>
+                                            <h6 class="dropdown-header px-2"> Vestidos </h6>
+                                        </li>
+                                        <li><a href="./vestidos.html" class="nav-link px-3 fw-bold"> Ver todo </a></li>
+                                        <li><a href="./vestidos.html" class="nav-link px-3"> Cortos </a></li>
+                                        <li><a href="./vestidos.html" class="nav-link px-3"> Largos </a></li>
+                                    </div>
+
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item px-2 py-2"><a class="nav-link menuIndex menuHover" href="./preguntasFrecuentes.html" style="color: rgba(236, 236, 203, 1)"> Preguntas Frecuentes </a></li>
+                        <li class="nav-item px-2 py-2"><a href="./iniciarSesión.html" class="nav-link menuIndex menuHover"> Iniciar sesión </a></li>
+
+                    </ul>
+
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <aside class="filtro">
+            <h3>Filtrar por</h3>
+            
+            <form class="filtroProductos">
+
+            
+            <fieldset>
+                <legend>Talles</legend>
+                <label for="talle1">
+                    <input type="checkbox" name="talle" id="talle1" value="xs"> XS
+                </label>
+
+                <label for="talle2">
+                    <input type="checkbox" name="talle" id="talle2" value="s"> S
+                </label>
+
+                <label for="talle3">
+                    <input type="checkbox" name="talle" id="talle3" value="m"> M
+                </label>
+
+                <label for="talle4">
+                    <input type="checkbox" name="talle" id="talle4" value="l"> L
+                </label>
+
+                <label for="talle5">
+                    <input type="checkbox" name="talle" id="talle5" value="xl"> XL
+                </label>
+
+                <label for="talle6">
+                    <input type="checkbox" name="talle" id="talle6" value="xxl"> XXL
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Precio</legend>
+                <label for="precioMin"> $<span id="precioMinVal"> 0 </span></label>
+                <input type="range" id="precioMinYMax" min="0" max="50000" value="50000" step="50">
+                <label for="precioMax"> $<span id="precioMinVal"> 50000 </span></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Color</legend>
+                <label for="color1">
+                    <input type="checkbox" name="color" id="color1"> Negro 
+                    <div class="circuloNegro"></div>
+                </label>
+
+                <label for="color2">
+                    <input type="checkbox" name="color" id="color2"> Azul 
+                    <div class="circuloAzul"></div>
+                </label>
+
+                <label for="color3">
+                    <input type="checkbox" name="color" id="color3"> Celeste
+                    <div class="circuloCeleste"></div>
+                </label>
+
+                <label for="color4">
+                    <input type="checkbox" name="color" id="color4"> Blanco 
+                    <div class="circuloBlanco"></div>
+                </label>
+
+                <label for="color5">
+                    <input type="checkbox" name="color" id="color5"> Rosa 
+                    <div class="circuloRosa"></div>
+                </label>
+
+                <label for="color6">
+                    <input type="checkbox" name="color" id="color6"> Verde 
+                    <div class="circuloVerde"></div>
+                </label>
+
+                <label for="color7">
+                    <input type="checkbox" name="color" id="color7"> Marrón 
+                    <div class="circuloMarron"></div>
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Filtrar">
+            </form>
+
+        </aside>
+
+        <section class="sectionGaleriaProductos">
+
+            <div class="galeriaProductos">
+                
+                <div class="productosMain">
+                    <img src="../imagenes/recomendadosDecimo.png" alt="pollera de tienda de ropa Killari, de jean con encaje en las puntas color blanco"  id="card">
+                    <h3>Garden skirt</h3>
+                    <h3>$30.000</h3>
+                    <p>10% off en efectivo</p>
+                </div>
+
+                <div class="productosMain">
+                    <img src="../imagenes/recomendadosDoceavo.png" alt="pollera de la tienda Killari, larga con un degradé en colores azul y celeste" id="card"> 
+                    <h3>Ocean skirt</h3>
+                    <h3>$30.000</h3>
+                    <p>10% off en efectivo</p>
+                </div>
+
+                <div class="productosMain">
+                    <img src="../imagenes/recomendados18.png" alt="pollera de la tienda Killari, con tajos y moños, color Negro" id="card">
+                    <h3>Pirate black skirt</h3>
+                    <h3>$35.000</h3>
+                    <p>10% off en efectivo</p>
+                </div>
+
+                <div class="productosMain">
+                    <img src="../imagenes/recomendados19.png" alt="short de la tienda Killari, con detalles de encaje y cintas, de jean" id="card">
+                    <h3>Sweetie short</h3>
+                    <h3>$25.000</h3>
+                    <p>10% off en efectivo</p>
+                </div>
+
+                <div class="productosMain">
+                    <img src="../imagenes/recomendados20.png" alt="pollera de la tienda Killari, a la cintura, de jean" id="card">
+                    <h3>School days skirt</h3>
+                    <h3>$20.000</h3>
+                    <p>10% off en efectivo</p>
+                </div>
+
+                <div class="productosMain">
+                    <img src="../imagenes/recomendados21.png" alt="pantalon de la tienda Killari, con aberturas y encaje" id="card">
+                    <h3>Elegant lady jean</h3>
+                    <h3>$25.000</h3>
+                    <p>10% off en efectivo</p>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer">
+            <div class="footer-row">
+                <div class="footer-col">
+                <a href="./Sections/partesDeArriba.html">Partes de Arriba</a>
+                <ul class="links">
+                    <li><a href="#">Remeras</a></li>
+                    <li><a href="#">Blusas</a></li>
+                    <li><a href="#">Camisas</a></li>
+                </ul>
+                </div>
+            <div class="footer-col">
+                <a href="./Sections/partesDeAbajo.html">Partes de abajo</a>
+                <ul class="links">
+                    <li><a href="#">Pantalones</a></li>
+                    <li><a href="#">Jeans</a></li>
+                    <li><a href="#">Polleras</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <a href="./Sections/abrigos.html">Abrigos</a>
+                <ul class="links">
+                    <li><a href="#">Camperas</a></li>
+                    <li><a href="#">Sweeters</a></li>
+                    <li><a href="#">Buzos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <a href="./Sections/vestidos.html">Vestidos</a>
+                <ul class="links">
+                    <li><a href="#">Cortos</a></li>
+                    <li><a href="#">Largos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Redes sociales</h4>
+                <p> Pueden encontrarnos en </p>
+                <div class="icons">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </div>
+            </div>
+
+        </section>
+
+        <p>&copy; 2025 Todos los derechos reservados</p>
+
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
