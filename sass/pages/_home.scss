@@ -1,0 +1,172 @@
+@import "../abstracts/lists";
+@import "../abstracts/variables";
+
+
+header{
+    background-color: $bg-header;
+    nav{
+        div{
+            a{
+                #logo{
+                    width: 70px;
+                    height: 70px;
+                    margin: 5px;
+                    padding: 5px;
+                }
+            }
+            div{
+                ul{
+                    li{
+                        .menuIndex{
+                            font-family: nth($list-fonts , 3);
+                            color: rgba(236, 236, 203, 1);
+                        }
+                        .menuHover{
+                            &:hover{
+                                background-color: $bg-secondary;
+                                color: rgba(236, 236, 203, 1);
+                                border-radius: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+main{
+    div{
+        .hero-section{
+            background: url(../imagenes/bannerPrincipal.png) 50% no-repeat;
+            background-size: cover;
+            height: 90vh;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        div{
+            .hero-section-text{
+                h1{
+                    font-size: 100px;
+                    font-family: nth($list-fonts , 1);
+                    color: $color-font-principal;
+                }
+            }
+        }
+    }
+    section{
+        .sectionProductos{
+            display: grid;
+            width: 80%;
+            margin: 50px auto;
+            overflow: hidden;
+        }
+        div{
+            .carrouselProductos{
+                font-family: nth($list-fonts , 3);
+                color: $color-font-principal;
+    
+                display: flex;
+    
+                gap: 5px;
+            }
+            div{
+                .productIndex{
+                    background-color: $bg-product;
+                    border-radius: 10px;
+
+                    margin: 5px;
+                    padding: 5px;
+                }
+                img{
+                    #card{
+                        width: 250px;
+                        height: 250px;
+                        border-radius: 10px;
+                    }
+                }
+                h3{
+                    font-size: 15px;
+        
+                    margin-top: 10px;
+                    margin: 10px;
+                }
+                p{
+                    margin-top: 10px;
+                    margin: 10px;
+                }
+            }
+        }
+    }
+}
+footer{
+    background: rgba(236, 236, 203, 1);
+    section{
+        .footer{
+            width: 100%;
+        }
+        div{
+            .footer-row{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                gap: 3.5rem;
+                padding: 30px;
+            }
+            div{
+                .footer-col{
+                    a{
+                        font-family: nth($list-fonts , 3);
+                        color: rgba(0, 11, 98, 1);
+                        font-size: 1rem;
+                        font-weight: 400;
+                        text-decoration: none;
+                    }
+                    ul{
+                        .links {
+                            margin-top: 20px;
+                        }
+                        li{
+                            list-style: none;
+                            margin-bottom: 10px;
+                            a{
+                                text-decoration: none;
+                                color: $color-font-secondary;
+                                &:hover{
+                                    color: $bg-secondary;
+                                }
+                            }
+                        }
+                    }
+                    h4{
+                        font-family: nth($list-fonts , 3);
+                        color: $color-font-secondary;
+                        font-size: 1.2rem;
+                        font-weight: 400;
+                    }
+                    div{
+                        .icons {
+                            display: flex;
+                            margin-top: 30px;
+                            gap: 30px;
+                            cursor: pointer;
+                            .ion-icon {
+                                color: rgba(0, 11, 98, 1);
+                            }
+                            &:hover{
+                                color: $bg-secondary;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    p{
+        font-family: nth($list-fonts , 3);
+        color: $color-font-secondary;
+        text-align: center;
+    }
+}

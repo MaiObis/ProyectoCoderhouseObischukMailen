@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link Style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Killari</title>
+</head>
+<body> 
+    
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                    <img src="/imagenes/isotipoHeader.png" alt="isotipo de la marca Killari" id="logo">
+                </a>
+
+                <div class="order-lg-2">
+
+                    <button type="button" class="btn">
+                        <i class="bi bi-bag"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" class="bi bi-bag" fill="#ececcb" viewBox="0 0 16 16">
+                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                        </svg>
+                    </button>
+                    
+                </div>
+
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMegaMenu" aria-controls="navbarMegaMenu" aria-expanded="false"
+                aria-label="Toogle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse order-lg-1" id="navbarMegaMenu">
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item px-2 py-2"><a class="nav-link menuIndex menuHover" style="color: rgba(236, 236, 203, 1)" href="#header"> Home </a></li>
+
+                        <li class="dropdown px-2 py-2">
+                            <a class="nav-link px-2 dropdown-toggle menuIndex menuHover" data-bs-toggle="dropdown" aria-expanded="false" style="color: rgba(236, 236, 203, 1)" > Categorías </a>
+                            <ul class="dropdown-menu mega-menu megaMenuStyle">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <li>
+                                            <h6 class="dropdown-header px-2"> Partes de arriba </h6>
+                                        </li>
+                                        <li><a href="./sections/partesDeArriba.html" class="nav-link px-3 fw-bold"> Ver todo </a></li>
+                                        <li><a href="./sections/partesDeArriba.html" class="nav-link px-3"> Remeras </a></li>
+                                        <li><a href="./sections/partesDeArriba.html" class="nav-link px-3"> Blusas </a></li>
+                                        <li><a href="./sections/partesDeArriba.html" class="nav-link px-3"> Camisas </a></li>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <li>
+                                            <h6 class="dropdown-header px-2"> Partes de abajo </h6>
+                                        </li>
+                                        <li><a href="./sections/partesDeAbajo.html" class="nav-link px-3 fw-bold"> Ver todo </a></li>
+                                        <li><a href="./sections/partesDeAbajo.html" class="nav-link px-3"> Pantalones </a></li>
+                                        <li><a href="./sections/partesDeAbajo.html" class="nav-link px-3"> Jeans </a></li>
+                                        <li><a href="./sections/partesDeAbajo.html" class="nav-link px-3"> Polleras </a></li>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <li>
+                                            <h6 class="dropdown-header px-2"> Abrigos </h6>
+                                        </li>
+                                        <li><a href="./sections/abrigos.html" class="nav-link px-3 fw-bold"> Ver todo </a></li>
+                                        <li><a href="./sections/abrigos.html" class="nav-link px-3"> Camperas </a></li>
+                                        <li><a href="./sections/abrigos.html" class="nav-link px-3"> Sweeters </a></li>
+                                        <li><a href="./sections/abrigos.html" class="nav-link px-3"> Buzos </a></li>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <li>
+                                            <h6 class="dropdown-header px-2"> Vestidos </h6>
+                                        </li>
+                                        <li><a href="./sections/vestidos.html" class="nav-link px-3 fw-bold"> Ver todo </a></li>
+                                        <li><a href="./sections/vestidos.html" class="nav-link px-3"> Cortos </a></li>
+                                        <li><a href="./sections/vestidos.html" class="nav-link px-3"> Largos </a></li>
+                                    </div>
+
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item px-2 py-2"><a class="nav-link menuIndex menuHover" href="./sections/preguntasFrecuentes.html" style="color: rgba(236, 236, 203, 1)"> Preguntas Frecuentes </a></li>
+                        <li class="nav-item px-2 py-2"><a href="./sections/iniciarSesion.html" class="nav-link menuIndex menuHover"> Iniciar sesión </a></li>
+
+                    </ul>
+
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <div class="hero-section">
+            <div class="hero-section-text">
+                <h1>Bienvenido a la fantasía</h1>
+            </div>
+        </div>
+
+        <section class="sectionProductos">
+
+            <h2>Novedades de ensueño</h2>
+            <!-- Carrousel de imágenes -->
+            <div class="carrouselProductos">
+                
+                <div class="productIndex">
+                    <img src="imagenes/sirenWhiteDress.png" alt="vestido de tienda de ropa Killari, corto de color blanco con detalles en azul" id="card">
+                    <h3>Siren white dress</h3>
+                    <h3>$45.000</h3>
+                    <p>10% off en efectivo</p>
+                </div>
+
+                <div class="productIndex">
+                    <img src="imagenes/greenFairyTop.png" alt="Blusa de tienda de ropa Killari, tipo top con una avertura en el medio con tiras, color verde" id="card">
+                    <h3>Green fairy top</h3>
+                    <h3>$15.000</h3>
+                    <p>10% off en efectivo</p>
+                </div>
+    
+                <div class="productIndex">
+                    <img src="imagenes/gardenSkirt.png" alt="pollera de tienda de ropa Killari, de jean con encaje en las puntas color blanco"  id="card">
+                    <h3>Garden skirt</h3>
+                    <h3>$30.000</h3>
+                    <p>10% off en efectivo</p>
+                </div>
+    
+                <div class="productIndex">
+                    <img src="imagenes/sweetFlowerCardigan.png" alt="cardigan de tienda de ropa Killari, color celeste pastel y blanco crema con detalles de flores" id="card">
+                    <h3>Sweet flower cardigan</h3>
+                    <h3>$25.000</h3>
+                    <p>10% off en efectivo</p>
+                </div>
+    
+                <div class="productIndex">
+                    <img src="imagenes/oceanSkirt.png" alt="pollera de la tienda Killari, larga con un degradé en colores azul y celeste" id="card"> 
+                    <h3>Ocean skirt</h3>
+                    <h3>$30.000</h3>
+                    <p>10% off en efectivo</p>
+                </div>
+    
+                <div class="productIndex">
+                    <img src="imagenes/lightBluePrincessDress.png" alt="vestido de tienda de ropa Killari, celeste pastel, corset con detalles de flores" id="card">
+                    <h3>Light blue princess dress</h3>
+                    <h3>$45.000</h3>
+                    <p>10% off en efectivo</p>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <section class="sectionProductos">
+            <h2>La fantasía de todos</h2>
+            <!-- Carrousel de imágenes -->
+
+            <div class="carrouselProductos">
+
+                <div class="productIndex">
+                    <img src="imagenes/sakuraPrincessDress.png" alt="vestido de la tienda Killari, corto color blanco con flores en rosa pastel" id="card">
+                    <h3>Sakura princess dress</h3>
+                    <h3>$45.000</h3>
+                    <p>10% off en efectivo</p>
+                </div>
+
+                <div class="productIndex">
+                    <img src="imagenes/ghoticGlackTop.png" alt="blusa de la tienda Killari, tipo top con una abertura en medio atada con moño, color negro" id="card">
+                    <h3>Ghotic black top</h3>
+                    <h3>$25.000</h3>
+                    <p>10% off en efectivo</p>
+                </div>
+
+                <div class="productIndex">
+                    <img src="imagenes/flowerQueenDress.png" alt="vestido de la tienda Killari, corto color blanco con detalles de flores en las mangas y cuello, tipo saco" id="card">
+                    <h3>Flower Queen dress</h3>
+                    <h3>$45.000</h3>
+                    <p>10% off en efectivo</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="footer">
+            <div class="footer-row">
+                <div class="footer-col">
+                <a href="./sections/partesDeArriba.html">Partes de Arriba</a>
+                <ul class="links">
+                    <li><a href="#">Remeras</a></li>
+                    <li><a href="#">Blusas</a></li>
+                    <li><a href="#">Camisas</a></li>
+                </ul>
+                </div>
+            <div class="footer-col">
+                <a href="./sections/partesDeAbajo.html">Partes de abajo</a>
+                <ul class="links">
+                    <li><a href="#">Pantalones</a></li>
+                    <li><a href="#">Jeans</a></li>
+                    <li><a href="#">Polleras</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <a href="./sections/abrigos.html">Abrigos</a>
+                <ul class="links">
+                    <li><a href="#">Camperas</a></li>
+                    <li><a href="#">Sweeters</a></li>
+                    <li><a href="#">Buzos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <a href="./sections/vestidos.html">Vestidos</a>
+                <ul class="links">
+                    <li><a href="#">Cortos</a></li>
+                    <li><a href="#">Largos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Redes sociales</h4>
+                <p> Pueden encontrarnos en </p>
+                <div class="icons">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </div>
+            </div>
+
+        </section>
+
+        <p>&copy; 2025 Todos los derechos reservados</p>
+
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
