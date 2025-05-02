@@ -1,0 +1,22 @@
+body{
+    section{
+        div{
+            div{
+                div{
+                    form{
+                        div{
+                            label{
+                                font-family: nth($list-fonts , 3);
+                                color: $color-font-principal;
+                            }
+                            button{
+                                font-family: nth($list-fonts , 3);
+                                color: $color-font-principal;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,150 @@
+@import "../abstracts/lists";
+@import "../abstracts/variables";
+
+main{
+    .mainSections{
+        display: flex;
+    }
+    .filtro{
+        color: $color-font-principal;
+    
+        margin: 20px;
+        width: 25%;
+    }
+    h3{
+        font-family: nth($list-fonts , 1);
+    }
+    fieldset{
+        font-family: nth($list-fonts , 3);
+
+        border-color: $color-font-principal;
+
+        border-top: none;
+        border-left: none;
+        border-right: none;
+
+        display: grid;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        label{
+            input{
+                font-family: nth($list-fonts , 3);
+                background-color: $color-font-principal;
+                border: none;
+                border-radius: 10px;
+            }
+            .circuloNegro{
+                width: 10px;
+                height: 10px;
+                background-color: black;
+                border-radius: 50%;
+            
+                display: inline-block;
+                align-items: center;
+                margin-right: 10px;
+            }
+            
+            .circuloAzul{
+                width: 10px;
+                height: 10px;
+                background-color: rgb(39, 39, 179);
+                border-radius: 50%;
+            
+                display: inline-block;
+                align-items: center;
+                margin-right: 10px;
+            }
+            
+            .circuloCeleste{
+                width: 10px;
+                height: 10px;
+                background-color: rgb(47, 146, 238);
+                border-radius: 50%;
+            
+                display: inline-block;
+                align-items: center;
+                margin-right: 10px;
+            }
+            
+            .circuloBlanco{
+                width: 10px;
+                height: 10px;
+                background-color: rgb(255, 255, 255);
+                border-radius: 50%;
+            
+                display: inline-block;
+                align-items: center;
+                margin-right: 10px;
+            }
+            
+            .circuloRosa{
+                width: 10px;
+                height: 10px;
+                background-color: rgb(243, 131, 200);
+                border-radius: 50%;
+            
+                display: inline-block;
+                align-items: center;
+                margin-right: 10px;
+            }
+            
+            .circuloVerde{
+                width: 10px;
+                height: 10px;
+                background-color: rgb(79, 158, 33);
+                border-radius: 50%;
+            
+                display: inline-block;
+                align-items: center;
+                margin-right: 10px;
+            }
+            
+            .circuloMarron{
+                width: 10px;
+                height: 10px;
+                background-color: rgb(71, 46, 31);
+                border-radius: 50%;
+            
+                display: inline-block;
+                align-items: center;
+                margin-right: 10px;
+            }
+        }
+    }
+    section{
+        .galeriaProductos{
+            font-family: nth($list-fonts , 3);
+            color: $color-font-principal;
+        
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        
+            gap: 5px;
+            margin: 20px;
+            .productosMain{
+                background-color: $bg-product;
+                border-radius: 10px;
+            
+                margin: 5px;
+                padding: 5px;
+                #card{
+                    width: 250px;
+                    height: 250px;
+                    border-radius: 10px;
+                }
+                h3{
+                    font-size: 15px;
+            
+                    margin-top: 10px;
+                    margin: 10px;
+                }
+                p{
+                    margin-top: 10px;
+                    margin: 10px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,378 @@
+/* estilos generales */
+body {
+  background-color: #030021;
+}
+
+header {
+  background-color: rgb(0, 11, 98);
+}
+header nav div a #logo {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  padding: 5px;
+}
+header nav div div ul li .menuIndex {
+  font-family: Bahnschrift;
+  color: rgb(236, 236, 203);
+}
+header nav div div ul li .menuHover:hover {
+  background-color: rgb(45, 63, 199);
+  color: rgb(236, 236, 203);
+  border-radius: 20px;
+}
+
+main .hero-section {
+  background: url(../imagenes/bannerPrincipal.png) 50% no-repeat;
+  background-size: cover;
+  height: 90vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .hero-section-text h1 {
+  font-size: 100px;
+  font-family: Bona Nova SC;
+  color: rgb(236, 236, 203);
+}
+main .sectionProductos {
+  display: grid;
+  width: 80%;
+  margin: 50px auto;
+  overflow: hidden;
+}
+main h2 {
+  color: rgb(236, 236, 203);
+  font-family: EB Garamond;
+}
+main .carrouselProductos {
+  font-family: Bahnschrift;
+  color: rgb(236, 236, 203);
+  display: flex;
+  gap: 5px;
+}
+main .productIndex {
+  background-color: rgb(5, 167, 204);
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+main #card {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+main h3 {
+  font-size: 15px;
+  margin-top: 10px;
+  margin: 10px;
+}
+main p {
+  margin-top: 10px;
+  margin: 10px;
+}
+
+footer {
+  background: rgb(236, 236, 203);
+}
+footer .footer {
+  width: 100%;
+}
+footer .footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3.5rem;
+  padding: 30px;
+}
+footer .footer-col a {
+  font-family: Bahnschrift;
+  color: rgb(0, 11, 98);
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+footer .footer-col .links {
+  margin-top: 20px;
+}
+footer .footer-col li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+footer .footer-col li a {
+  text-decoration: none;
+  color: rgb(0, 11, 98);
+}
+footer .footer-col li a:hover {
+  color: rgb(45, 63, 199);
+}
+footer .footer-col h4 {
+  font-family: Bahnschrift;
+  color: rgb(0, 11, 98);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+footer .footer-col p {
+  font-family: Bahnschrift;
+  color: rgb(0, 11, 98);
+  text-align: center;
+}
+footer .footer-col .icons {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  cursor: pointer;
+}
+footer .footer-col .icons .ion-icon {
+  color: rgb(0, 11, 98);
+}
+footer .footer-col .icons .ion-icon:hover {
+  color: rgb(45, 63, 199);
+}
+footer p {
+  font-family: Bahnschrift;
+  color: rgb(0, 11, 98);
+  text-align: center;
+}
+
+main .mainSections {
+  display: flex;
+}
+main .filtro {
+  color: rgb(236, 236, 203);
+  margin: 20px;
+  width: 25%;
+}
+main h3 {
+  font-family: Bona Nova SC;
+}
+main fieldset {
+  font-family: Bahnschrift;
+  border-color: rgb(236, 236, 203);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  display: grid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+main fieldset label input {
+  font-family: Bahnschrift;
+  background-color: rgb(236, 236, 203);
+  border: none;
+  border-radius: 10px;
+}
+main fieldset label .circuloNegro {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+  margin-right: 10px;
+}
+main fieldset label .circuloAzul {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(39, 39, 179);
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+  margin-right: 10px;
+}
+main fieldset label .circuloCeleste {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(47, 146, 238);
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+  margin-right: 10px;
+}
+main fieldset label .circuloBlanco {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+  margin-right: 10px;
+}
+main fieldset label .circuloRosa {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(243, 131, 200);
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+  margin-right: 10px;
+}
+main fieldset label .circuloVerde {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(79, 158, 33);
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+  margin-right: 10px;
+}
+main fieldset label .circuloMarron {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(71, 46, 31);
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+  margin-right: 10px;
+}
+main section .galeriaProductos {
+  font-family: Bahnschrift;
+  color: rgb(236, 236, 203);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin: 20px;
+}
+main section .galeriaProductos .productosMain {
+  background-color: rgb(5, 167, 204);
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+main section .galeriaProductos .productosMain #card {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+main section .galeriaProductos .productosMain h3 {
+  font-size: 15px;
+  margin-top: 10px;
+  margin: 10px;
+}
+main section .galeriaProductos .productosMain p {
+  margin-top: 10px;
+  margin: 10px;
+}
+
+body section div div div form div label {
+  font-family: Bahnschrift;
+  color: rgb(236, 236, 203);
+}
+body section div div div form div button {
+  font-family: Bahnschrift;
+  color: rgb(236, 236, 203);
+}
+
+@media screen and (min-width: 640px) {
+  .mega-menu {
+    width: 640px;
+    transform: translate3d(0, 4px, 0) !important;
+  }
+}
+@media screen and (min-width: 300px) {
+  .navbar-brand {
+    height: 50px;
+    width: 50px;
+  }
+  #logo {
+    height: 40px;
+    width: 40px;
+  }
+  .bi-bag {
+    height: 25px;
+    width: 25px;
+  }
+  main .hero-section {
+    background-size: cover;
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .hero-section-text h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .mainSections {
+    display: flex;
+  }
+  main aside fieldset {
+    display: grid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  footer .footer {
+    width: 100%;
+  }
+  footer .footer .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3.5rem;
+    padding: 30px;
+  }
+  footer .footer-col .icons {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 600px) {
+  .navbar-brand {
+    height: 50px;
+    width: 50px;
+  }
+  #logo {
+    height: 50px;
+    width: 50px;
+  }
+  .bi-bag {
+    height: 25px;
+    width: 25px;
+  }
+  main .hero-section {
+    background-size: cover;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .hero-section-text h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .navbar-brand {
+    height: 50px;
+    width: 50px;
+  }
+  #logo {
+    height: 50px;
+    width: 50px;
+  }
+  .bi-bag {
+    height: 25px;
+    width: 25px;
+  }
+  main .hero-section {
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .hero-section-text h1 {
+    font-size: 70px;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

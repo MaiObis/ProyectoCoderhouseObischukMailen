@@ -1,0 +1,61 @@
+@media screen and (min-width: 300px){
+
+    .navbar-brand{
+        height: 50px;
+        width: 50px;
+    }
+
+    #logo{
+        height: 40px;
+        width: 40px;
+    }
+
+    .bi-bag{
+        height: 25px;
+        width: 25px;
+    }
+
+    main .hero-section{
+        background-size: cover;
+        height: 30vh;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .hero-section-text h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .mainSections{
+        display: flex;
+    }
+
+    main aside fieldset{
+        display: grid;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer .footer {
+        width: 100%;
+    }
+
+    footer .footer .footer-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 3.5rem;
+        padding: 30px;
+    }
+
+    footer .footer-col .icons {
+        display: flex;
+        margin-top: 30px;
+        gap: 30px;
+        cursor: pointer;
+    }
+
+}

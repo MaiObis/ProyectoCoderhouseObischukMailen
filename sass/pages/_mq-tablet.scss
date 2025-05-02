@@ -1,0 +1,31 @@
+@media screen and (min-width: 600px){
+
+    .navbar-brand{
+        height: 50px;
+        width: 50px;
+    }
+
+    #logo{
+        height: 50px;
+        width: 50px;
+    }
+
+    .bi-bag{
+        height: 25px;
+        width: 25px;
+    }
+
+    main .hero-section{
+        background-size: cover;
+        height: 40vh;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .hero-section-text h1{
+        font-size: 45px;
+        text-align: center;
+    }
+}
